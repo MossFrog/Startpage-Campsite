@@ -2,3 +2,9 @@ body {
   background: #000 url('Images/Fire.gif') no-repeat center fixed; 
   color: #000
 }
+
+div.container-fluid
+{
+	margin-top: 50px;
+	padding: 40px;
+}
