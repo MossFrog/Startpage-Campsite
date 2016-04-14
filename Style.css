@@ -1,5 +1,6 @@
 body { 
-  background: #000 url('Images/Fire.gif') no-repeat center fixed; 
+  background: #003300 url('Images/Background.jpg') no-repeat bottom fixed;
+  background-size:cover; 
   color: #000
 }
 
@@ -7,4 +8,43 @@ div.container-fluid
 {
 	margin-top: 50px;
 	padding: 40px;
+}
+
+footer
+{
+   position: fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
+div.flame
+{
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-top: -150px;
+  	margin-left: -100px;
+}
+
+.bg-1 
+{
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+.bg-2 
+{
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 
+{
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.bg-4 
+{
+    background-color: #003300; /* Dark Green */
+    color: #555555;
 }
