@@ -15,13 +15,16 @@
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+  <!-- Script for the clock -->
+  <script src="Source/Clock.js"></script>
+
   <link rel="stylesheet" type="text/css" href="Style.css"/>
 
  </head>
 
 
  
-<body>
+<body onload="startTime()">
 
   <div class="flame">
     <img src="Images/Fire.gif">
@@ -34,7 +37,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" href="#collapse1">Collapsible list group</a>
+              <a data-toggle="collapse" href="#collapse1">Links</a>
             </h4>
           </div>
           <div id="collapse1" class="panel-collapse collapse">
@@ -43,7 +46,6 @@
               <li class="list-group-item">Two</li>
               <li class="list-group-item">Three</li>
             </ul>
-            <div class="panel-footer">Footer</div>
           </div>
         </div>
       </div>
@@ -54,7 +56,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" href="#collapse2">Collapsible list group</a>
+              <a data-toggle="collapse" href="#collapse2">Boards</a>
             </h4>
           </div>
           <div id="collapse2" class="panel-collapse collapse">
@@ -70,11 +72,13 @@
     </div>
   </div>
 </div>
+
+
 </body>
 
 
 <footer class="container-fluid bg-2 text-center">
-  <p>Lorem ipsum..</p>
+  <p><h1 id="clock"></h1></p>
 </footer>
 
 </html>

@@ -1,7 +1,24 @@
-body { 
-  background: #003300 url('Images/Background.jpg') no-repeat bottom fixed;
-  background-size:cover; 
-  color: #000
+@font-face {
+	font-family: 'Montecarlo';
+	src: url('Fonts/montecarlo.ttf');
+}
+
+@font-face {
+  font-family: 'Consola';
+  src: url('Fonts/consola.ttf');
+}
+
+html 
+{
+	font-family: 'Consola';
+}
+
+body 
+{ 
+  background: rgba(71,78,93,1)url('Images/Background.jpg') no-repeat bottom fixed;
+  background-size: cover; 
+  color: #000;
+  font-family: 'Consola';
 }
 
 div.container-fluid
@@ -15,8 +32,9 @@ footer
    position: fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:75px;
    width:100%;
+   text-align: left;
 }
 
 div.flame
@@ -28,6 +46,13 @@ div.flame
   	margin-left: -100px;
 }
 
+#clock {
+	text-align: left;
+	font-size: 56;
+	margin: 0;
+	padding-top: 144;
+}
+
 .bg-1 
 {
     background-color: #1abc9c; /* Green */
@@ -35,7 +60,7 @@ div.flame
 }
 .bg-2 
 {
-    background-color: #474e5d; /* Dark Blue */
+    background-color: rgba(71,78,93,0.0); /* Transluscent Dark Blue */
     color: #ffffff;
 }
 .bg-3 
