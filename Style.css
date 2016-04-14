@@ -32,9 +32,43 @@ footer
    position: fixed;
    left:0px;
    bottom:0px;
-   height:75px;
+   height:100px;
    width:100%;
    text-align: left;
+}
+
+.panel > .panel-heading 
+{
+    background-image: none;
+    background-color: rgba(71,78,93,0.5);
+    color: white;
+
+}
+
+.panel > .panel-footer 
+{
+    background-image: none;
+    color: black;
+
+}
+
+.list-group > .list-group-item 
+{
+    background-image: none;
+    background-color: rgba(71,78,93,0.5);
+    color: white;
+}
+
+.form-group > .get
+{
+    background-color: rgba(71,78,93,0.5);
+    color: white;
+}
+
+form > .form-control
+{
+    background-color: rgba(71,78,93,0.5);
+    color: white;
 }
 
 div.flame
